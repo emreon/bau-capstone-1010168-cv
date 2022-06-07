@@ -66,6 +66,8 @@ for contourB in contoursB:
     if MB['m00'] != 0.0:
         x = int(MB['m10']/MB['m00'])
         y = int(MB['m01']/MB['m00'])
+    x = 0
+    y = 0
   
     # putting shape name at center of each shape
     if len(approxB) == 3:
